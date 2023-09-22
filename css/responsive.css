@@ -1,0 +1,206 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+   
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .menu-list {
+        width: 65%;
+    }
+    .banner-left-content h1 {
+        font-size: 54px;
+        line-height: 68px;
+    }
+    .communication-left h2 {
+        width: 100%;
+    }
+    .communication-left {
+        margin-top: 0px;
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .menu-list{
+        display: block;
+    }
+    .nav-btn{
+        width: fit-content;
+    }
+    .banner-left-content h1{
+        font-size: 32px;
+    }
+    .banner-sec{
+        padding: 0px;
+        height: 485px;
+    }
+    .banner-img-content img {
+        margin-top: -130px;
+    }
+    .banner-right-content{
+        text-align: left;
+    }
+    .download-btns{
+        justify-content: center;
+        display: flex;
+    }
+    .download-btns .btn{
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
+    .download-btns .btn{
+        width: 140px;
+    }
+    .logos-content .single-logo {
+        width: 33%;
+    }
+    .logos-content .single-logo img {
+        max-width: 90%;
+        width: 100%;
+    }
+    .logos-content{
+        justify-content: center;
+    }
+    .section-title h2, .communication-left h2 {
+        font-size: 28px;
+    }
+    .section-title p, .communication-left p{
+        font-size: 14px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .single-box{
+        margin-bottom: 30px;
+    }
+    .communication-left {
+        margin-top: 0;
+    }
+    .communication-left h2, .footer-logo p{
+        width: 100%;
+    }
+    .bottom-chat-box {
+        padding: 45px 0px 0px;
+    }
+    .footer-top-content h2 {
+        font-size: 33px;
+    }
+    .footer-top-content .download-btns{
+        gap: 0;
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .menu-list{
+        display: block;
+    }
+    .nav-btn{
+        width: fit-content;
+    }
+    .banner-left-content h1{
+        font-size: 32px;
+    }
+    .banner-sec{
+        padding: 0px;
+        height: 485px;
+    }
+    .banner-img-content img {
+        margin-top: -130px;
+    }
+    .banner-right-content{
+        text-align: left;
+    }
+    .download-btns{
+        justify-content: center;
+        display: flex;
+    }
+    .download-btns .btn{
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
+    .download-btns .btn{
+        width: 140px;
+    }
+    .logos-content .single-logo {
+        width: 33%;
+    }
+    .logos-content .single-logo img {
+        max-width: 90%;
+        width: 100%;
+    }
+    .logos-content{
+        justify-content: center;
+    }
+    .section-title h2, .communication-left h2 {
+        font-size: 28px;
+    }
+    .section-title p, .communication-left p{
+        font-size: 14px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .single-box{
+        margin-bottom: 30px;
+    }
+    .communication-left {
+        margin-top: 0;
+    }
+    .communication-left h2, .footer-logo p{
+        width: 100%;
+    }
+    .bottom-chat-box {
+        padding: 45px 0px 0px;
+    }
+    .footer-top-content h2 {
+        font-size: 33px;
+    }
+    .footer-top-content .download-btns{
+        gap: 0;
+    }
+  }
